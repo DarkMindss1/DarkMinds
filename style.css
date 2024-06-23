@@ -1,0 +1,107 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxv7MMHu5UCPdhvSeDIbOJ6k0xijxLBM1ITfyBA4VttyNKYn-sHyN4DPRQ&s=10);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+  .button1 {
+    background-color: transparent;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 50%;
+    padding: 50px 250px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:serif;
+    border: 5px solid white;
+     }
+ .button2 {
+   background-color: transparent;
+   border-radius: 15px;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   top: 50%;
+   left: 50%;
+   padding: 50px 260px;
+   color: white;
+   font-size: 40px;
+   font-weight: bold;
+   font-family: serif;
+   border: 5px solid white;
+    }
+ .button3 {
+   background-color: transparent;
+   border-radius: 15px;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   top: 70%;
+   left: 50%;
+   padding: 50px 230px;
+   color: white;
+   font-size: 40px;
+   font-weight: bold;
+   font-family: serif;
+   border: 5px solid white;
+   }
+ .button4 {
+   background-color: transparent;
+   border-radius: 15px;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   top: 88%;
+   left: 50%;
+   padding: 50px 230px;
+   color: white;
+   font-size: 40px;
+   font-weight: bold;
+   font-family: serif;
+   border: 5px solid white;
+      }
+    button1:before {
+      transition: 0.5s all ease;
+      position: absolute;
+      top: 0;
+      left:50%;
+      right: 50%;
+      bottom: 0;
+      opacity: 0;
+      content: '';
+      background-color: #FF0072;
+      z-index: -1;
+       }
+       button:hover, button:focus{
+         color: lightgoldenrodyellow;
+       }
+       .box 
+       {
+         background-color: black;
+         border: 10px solid lightblue;
+         max-width: 950px;
+         margin: auto;
+         
+         height: 70vh;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         
+         position: absolute;
+         right: 0;
+         left: 0;
+         top: 20%;
+         bottom: 0;
+         }
+         a {
+         text-decoration: none;
+         font-family: serif;
+         right: 0;
+         left: -1%;
+         top: -35%;
+         bottom: 0;
+         font-size: 50px;
+         position: relative;
+         color: blue;
+        }
