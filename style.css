@@ -1,10 +1,10 @@
-body{
+body {
 
     background-color: #481D24;
 
 }
 
-.PinCracker{
+.PinCracker {
 
     display: flex;
 
@@ -20,7 +20,7 @@ body{
 
 }
 
-#ContactTip{
+#ContactTip {
 
     font-family: rubik;
 
@@ -32,7 +32,7 @@ body{
 
 }
 
-#PinCrackerText{
+#PinCrackerText {
 
     font-family: rubik;
 
@@ -42,7 +42,7 @@ body{
 
 }
 
-#InputField{
+#InputField {
 
     width: 50%;
 
@@ -66,7 +66,7 @@ body{
 
 }
 
-#SendMessage{
+#SendMessage {
 
     position: absolute;
 
@@ -170,7 +170,7 @@ body{
 
 }
 
-.Name-Input input{
+.Name-Input input {
 
     border: none;
 
@@ -208,7 +208,7 @@ body{
 
 }
 
-.Name-Input .placeholder{
+.Name-Input .placeholder {
 
     position: absolute;
 
@@ -234,7 +234,7 @@ body{
 
 }
 
-.Name-Input input:valid + .placeholder{
+.Name-Input input:valid + .placeholder {
 
     top: 10px;
 
@@ -244,7 +244,7 @@ body{
 
 }
 
-.Name-Input input:focus + .placeholder{
+.Name-Input input:focus + .placeholder {
 
     top: 10px;
 
