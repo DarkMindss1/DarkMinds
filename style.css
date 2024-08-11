@@ -4,7 +4,7 @@ body{
 
 }
 
-.Contact{
+.PinCracker{
 
     display: flex;
 
@@ -32,7 +32,7 @@ body{
 
 }
 
-#ContactText{
+#PinCrackerText{
 
     font-family: rubik;
 
